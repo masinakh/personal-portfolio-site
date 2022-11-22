@@ -1,0 +1,17 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(285px, auto);
+    padding-top: 20px;
+}
+projects-container div {
+background-color: #112240;
+border-radius: 15px;
+text-align: center;
+padding-top: 30px;
+padding-top: 30px;
+padding-left: 30px;
+padding-right: 30px;
+color: #a8b2d1;
+}  
